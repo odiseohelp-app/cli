@@ -64,7 +64,7 @@ export async function login(options: LoginOptions = {}): Promise<void> {
   }
 
   const token = await pollForDeviceToken(
-    `${baseUrl}/api/auth/device/token`,
+    `${baseUrl}/api/auth/mcp/device/token`,
     code,
   );
   const now = new Date();
