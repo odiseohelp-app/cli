@@ -1,5 +1,5 @@
 {
-  "name": "@odiseo/cli",
+  "name": "odiseo-cli",
   "version": "0.1.0",
   "description": "Connect Codex, Claude Code, Cursor and OpenClaw to the Odiseo SEO MCP.",
   "type": "module",

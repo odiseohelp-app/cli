@@ -18,20 +18,20 @@ the organization you authorize.
 Authenticate in the browser with the OAuth device flow:
 
 ```bash
-npx @odiseo/cli login
+npx odiseo-cli login
 ```
 
 Then install Odiseo in your client:
 
 ```bash
-npx @odiseo/cli mcp install cursor
+npx odiseo-cli mcp install cursor
 ```
 
 Replace `cursor` with `codex`, `claude`, or `openclaw`. Finally, verify the
 credential and MCP endpoint:
 
 ```bash
-npx @odiseo/cli mcp doctor
+npx odiseo-cli mcp doctor
 ```
 
 The login command shows a short code and opens the Odiseo approval page. The

@@ -175,9 +175,9 @@ Usage:
   odiseo doctor [--endpoint URL]
 
 Quickstart:
-  npx @odiseo/cli login
-  npx @odiseo/cli mcp install cursor
-  npx @odiseo/cli mcp doctor
+  npx odiseo-cli login
+  npx odiseo-cli mcp install cursor
+  npx odiseo-cli mcp doctor
 
 The CLI never prints stored credentials. Client configs are written with
 owner-only permissions where the client supports file-based configuration.
