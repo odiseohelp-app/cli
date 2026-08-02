@@ -1,0 +1,46 @@
+{
+  "name": "@odiseo/cli",
+  "version": "0.1.0",
+  "description": "Connect Codex, Claude Code, Cursor and OpenClaw to the Odiseo SEO MCP.",
+  "type": "module",
+  "bin": {
+    "odiseo": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test dist/*.test.js",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "odiseo",
+    "seo",
+    "mcp",
+    "model-context-protocol",
+    "codex",
+    "claude",
+    "cursor",
+    "openclaw"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odiseo-ai/cli.git"
+  },
+  "homepage": "https://odiseo.help/mcp",
+  "bugs": {
+    "url": "https://github.com/odiseo-ai/cli/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "typescript": "^5.9.0"
+  }
+}
