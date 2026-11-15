@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "odiseo": {
+      "url": "https://www.odiseo.help/api/mcp"
+    }
+  }
+}

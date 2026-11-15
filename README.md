@@ -7,6 +7,21 @@ Odiseo gives an agent the tools to research a site, build briefs and content
 plans, create and review articles, and operate the publication workflow inside
 the organization you authorize.
 
+## Cursor plugin
+
+This repository also includes a Cursor plugin: `.cursor-plugin/plugin.json`,
+`mcp.json`, and the `odiseo-seo` skill. It connects to the hosted Odiseo MCP
+server; it does not start a local server. No credentials are included.
+
+Install the plugin with your client's plugin installer, then authenticate to
+Odiseo through native MCP OAuth. An Odiseo account with MCP access is required;
+the hosted service's features, quotas and pricing are separate from this MIT
+package. If native OAuth is unavailable, use the CLI quickstart below to install
+an authenticated user-level MCP connection. Do not share that configuration.
+
+The skill begins with `get_started`, binds work to the requested domain, and
+preserves the user's review and publishing approvals.
+
 ## Requirements
 
 - Node.js 20 or newer

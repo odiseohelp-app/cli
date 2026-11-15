@@ -1,0 +1,20 @@
+{
+  "name": "odiseo",
+  "version": "0.1.0",
+  "description": "Research, plan, draft and review WordPress and Shopify SEO content through the hosted Odiseo MCP server.",
+  "author": {
+    "name": "Odiseo",
+    "email": "info@odiseo.help",
+    "url": "https://www.odiseo.help"
+  },
+  "homepage": "https://www.odiseo.help/mcp",
+  "repository": "https://github.com/odiseohelp-app/cli",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "wordpress",
+    "shopify",
+    "mcp",
+    "content-marketing"
+  ]
+}
