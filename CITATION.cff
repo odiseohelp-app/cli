@@ -4,7 +4,6 @@ type: software
 title: "Odiseo CLI"
 authors:
   - name: "Odiseo"
-    affiliation: "HERA TECH VENTURES S.L."
     website: "https://www.odiseo.help"
     email: "info@odiseo.help"
 repository-code: "https://github.com/odiseohelp-app/cli"
