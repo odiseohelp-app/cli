@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use Odiseo CLI in your work, please cite this software."
+type: software
+title: "Odiseo CLI"
+authors:
+  - name: "Odiseo"
+    affiliation: "HERA TECH VENTURES S.L."
+    website: "https://www.odiseo.help"
+    email: "info@odiseo.help"
+repository-code: "https://github.com/odiseohelp-app/cli"
+url: "https://www.odiseo.help/mcp"
+license: MIT
+abstract: >-
+  Command-line client for authenticating with the Odiseo SEO MCP service,
+  installing its remote Streamable HTTP connection in Codex, Claude Code,
+  Cursor or OpenClaw, and checking the MCP connection. Supports OAuth device
+  authorization and existing scoped API keys. Requires Node.js 20 or newer
+  and an Odiseo account with MCP access. The MIT license applies to this
+  client; the hosted service has separate access requirements.
+keywords:
+  - Model Context Protocol
+  - command-line interface
+  - OAuth
+  - SEO
